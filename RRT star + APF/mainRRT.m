@@ -1,6 +1,6 @@
 clc;clear;close all;
 % Experimental result parameters
-% Ll = Path length; Tt = Time; Node = Number of nodes£»
+% Ll = Path length; Tt = Time; Node = Number of nodes
 % All_Iterations = Iterations
 Ll = []; Tt = []; Node = []; Cut_L=[]; All_Iterations = []; 
 for j=1:1:2      % Number of runs
