@@ -1,6 +1,6 @@
 clc;clear;close all;
 % Experimental result parameters
-% Ll = Path length; Tt = Time; Node = Number of nodes¨B
+% Ll = Path length; Tt = Time; Node = Number of nodesÂ¨B
 % All_Iterations = Iterations
 Ll = []; Tt = []; Node = []; Cut_L=[]; All_Iterations = []; 
 for j=1:1:2      % Number of runs
@@ -34,7 +34,6 @@ global path_V;
 path_V= ([start_pose,-1]);       
 path_E = [];                    % Branches of a random tree
 path=[];                        % Final path
-
 
 % Build map
 figure(j)
