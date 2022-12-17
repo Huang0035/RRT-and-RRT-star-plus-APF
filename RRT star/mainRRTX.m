@@ -33,10 +33,6 @@ path_V= ([start_pose,-1]);
 path_E = [];                     % Branches of a random tree
 path=[];                         % Final path
 
-
-
-
-
 % Build map
 figure(j)
 axis([0 x_max 0 y_max])
