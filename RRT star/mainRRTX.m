@@ -5,7 +5,7 @@ clc;clear;close all;
 Ll = []; Tt = []; Node = []; Cut_L=[]; All_Iterations = []; 
 for j=1:1:2      % Number of runs
 % Setting parameters
-p=0.4;                   % Target bias probability
+p=0.3;                   % Target bias probability
 start_pose =[0,0];       % Starting point
 global goal_pose;
 goal_pose = [999,999];   % Target point
