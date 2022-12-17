@@ -94,8 +94,6 @@ end
 Iterations = i;
 t=toc;              % Calculate the time consumed by a search algorithm
 
-
-
 pose1 = path_V(size(path_V,1),1:3);
 while (pose1(1,3) > 0)
     path=[pose1(1,1:2);path];
@@ -104,7 +102,6 @@ end
 path = [path_V(1,1:2);path];    % Join the initial point
 % Draw the final path
 plot(path(:,1)',path(:,2)','color','r','LineWidth',1.5);
-
 
 % Calculate the original path length
 L=0;
