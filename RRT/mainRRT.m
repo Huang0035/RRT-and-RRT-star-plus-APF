@@ -1,9 +1,10 @@
 clc;clear;close all;
 % Experimental result parameters
-% Ll = Path length; Tt = Time; Node = Number of nodes¨B
+% Ll = Path length; Tt = Time; Node = Number of nodes
 % All_Iterations = Iterations
 Ll = []; Tt = []; Node = []; Cut_L=[]; All_Iterations = []; 
 for j=1:1:2      % Number of runs
+
 % Setting parameters
 p=0.3;                  % Target bias probability
 start_pose =[0,0];      % Starting point
@@ -17,7 +18,6 @@ counter = 0;
 global x_max;global y_max;
 x_max = 1000;
 y_max = 1000;
-
 
 % Obstacle
 global obstacle1;global obstacle2;global obstacle3;
@@ -44,10 +44,6 @@ plot(start_pose,'m*','LineWidth',10);
 hold on
 plot(goal_pose(1),goal_pose(2),'o','LineWidth',10);
 hold on
-
-
-
-
 
 % Algorithm implementation
 tic
