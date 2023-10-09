@@ -17,7 +17,7 @@ kp=1;
 global p0;              % Range of repulsion
 p0 = 250;
 global krep;            % Repulsion gain coefficient
-krep = 2;
+krep = 1;
 bias = 1.5*step;        % Allowable error
 numNodes = 5000;        
 counter = 0;
