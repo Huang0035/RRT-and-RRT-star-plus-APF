@@ -103,11 +103,11 @@ end
 function [F] = REP_F(near_point,random_point,obstacle)
     global goal_pose;
     global p0;                                          % Range of repulsion  
-    px = norm([near_point(1)-(obstacle(1)+obstacle(3)/2),near_point(2)-(obstacle(2)+obstacle(4)/2)],2);     % The distance from the nearest node to the obstacle
+    px = norm([near_point(1)-(obstacle(1)+obstacle(3))/2,near_point(2)-(obstacle(2)+obstacle(4))/2],2);     % The distance from the nearest node to the obstacle
     if px>p0
         F=[0,0];
     else
-        F = (1/px-1/p0)/(px)^2*([near_point(1)-(obstacle(1)+obstacle(3)/2),near_point(2)-(obstacle(2)+obstacle(4)/2)])/px;
+        F = (1/px-1/p0)/(px)^2*([near_point(1)-(obstacle(1)+obstacle(3))/2,near_point(2)-(obstacle(2)+obstacle(4))/2])/px;
     end
 end
 
