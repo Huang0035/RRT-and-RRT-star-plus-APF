@@ -5,10 +5,10 @@ This is the implementation of the paper:
 The algorithm proposed in this paper was based on RRT and RRT* of target bias probability combined with artificial potential field method.
 | RRT | RRT star | RRT + APF | RRT star + APF |
 | ------------- | ------------- | ------------- | ------------- |
-|<img src=" Result/RRT.png" width="270" alt="RRT"/><br/>|<img src=" Result/RRTstar.png" width="270" alt="RRT"/><br/>|<img src=" Result/RRT+APF.png" width="270" alt="RRT"/><br/>|<img src=" Result/RRTstar+APF.png" width="270" alt="RRT"/><br/>
+|<img src="Result/RRT.png" width="270" alt="RRT"/><br/>|<img src="Result/RRTstar.png" width="270" alt="RRT"/><br/>|<img src="Result/RRT+APF.png" width="270" alt="RRT"/><br/>|<img src="Result/RRTstar+APF.png" width="270" alt="RRT"/><br/>
 
 # Citation
-Feel free to cite the package, if you find it useful for your research.
+Feel free to cite the package if you find it useful for your research.
 ```
 @INPROCEEDINGS{9570910,
   author={Huang, Shunyu},
